@@ -4,10 +4,12 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 4%;
+    padding-right: 20px;
 }
 .half-width img{
     width: 80%;
@@ -34,4 +36,20 @@ h1{
 .top-banner{
    background-image: url(image/circle8.png);
     background-repeat: no-repeat;
+
+}
+
+#second{
+    padding: 15px;
+    background-image: linear-gradient(orange, tomato);
+}
+
+.font-second{
+    font-family: 'Festive', cursive;
+}
+.dream-big{
+    background-image: url(image/circle6.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
 }
