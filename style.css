@@ -53,3 +53,41 @@ h1{
     background-position: right;
     background-attachment: fixed;
 }
+
+.experience-area{
+    background-image: url(image/circle8.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    
+}
+
+h2{
+    font-size: 35px;
+}
+.box-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow:10px 10px 30px rgb(165, 158, 158);
+    border-radius: 10px;
+
+}
+#stack-developer{
+    border-left: 7px solid;
+    border-image:linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+
+
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) ;
+    border-image-slice:1;
+ 
+}
+
+footer p{
+    text-align: center;
+
+}
